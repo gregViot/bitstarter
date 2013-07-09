@@ -2,7 +2,8 @@ var express = require('express');
 
 var app = express.createServer(express.logger());
 
-var k = fs.readFileSync('./index.html','utf8');
+var k = 2;
+//var k = fs.readFileSync('./index.html','utf8');
   //response.send(inputFile);
 
 app.get('/', function(request, response) {
